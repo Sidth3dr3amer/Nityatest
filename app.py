@@ -22,5 +22,4 @@ def search():
 
     return render_template("results.html", results=results, query=user_input, choice=choice)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
